@@ -5,7 +5,7 @@ from html import unescape
 from pathlib import Path
 from typing import Any
 
-
+# MOJIBAKE_HINTS 乱码判断，之后可优化
 MOJIBAKE_HINTS = "æÆçÇèéêëîïðñòóôõöùúûüýÿ鈥滃€傛灄涓夐噾锛�"
 CHUNK_NAME_RE = re.compile(r"chunk_(\d+)\.json$", re.IGNORECASE)
 
